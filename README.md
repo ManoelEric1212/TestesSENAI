@@ -107,3 +107,24 @@ test("lança erro ao dividir por zero", () => {
 });
 
 ```
+
+# Verificar a cobertura de um teste de unidade 
+
+- Devemos instalar as libs para verificação de cobertura 
+
+``` npm i -D @vitest/coverage-v ```
+
+
+``` npm i -D @vitest/ui ```
+
+# Scripts devem ser atualizados 
+
+```js
+
+  "scripts": {
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:ui": "vitest --ui"
+  },
+
+```
